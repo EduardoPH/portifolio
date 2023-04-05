@@ -12,8 +12,8 @@ export default function WorkExprerience() {
         <WorkCard 
           index={1}
           image={"/save.svg"} 
-          subtitle='Take your client onboard seamlessly by our amazing tool of digital onboard process.'
-          title='CIB on the Mobile'
+          subtitle='E-commerce system for the sale of park tickets.'
+          title='E-commerce'
         />
         <WorkCard 
           index={2}

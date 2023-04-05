@@ -1,0 +1,75 @@
+.container {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+}
+
+.boxImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(50% 50% at 50% 50%, #3d0b6b 0%, rgba(50, 15, 133, 0) 100%);
+  width: 385px;
+
+  height: 431px;
+}
+.shadownWhite {
+  background: radial-gradient(50% 50% at 50% 50%, rgb(255, 255, 255) 40%, rgba(255, 255, 255, 0.4) 40%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0.1) 70%, rgba(255,255,255,0) 100%);
+  background-blend-mode: multiply;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: -88px;
+  left: 135px;
+}
+
+.boxTwo {
+  position: relative;
+  right: 30px;
+  margin-top: 1.6em;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 18em;
+}
+
+.name {
+   position: relative;
+   left: -15px;
+}
+
+.name > span {
+  color: #7127BA
+}
+
+.titleOne {
+  font-size: 17px;
+  text-decoration: underline;
+}
+
+.titleTwo {
+  font-size: 50px;
+  line-height: 126%;
+}
+
+.titleTwo > span {
+  position:sticky;
+  color: #7127BA;
+}
+
+.titleTwo > span > svg {
+
+  position: absolute;
+  left: 15px;
+}
+
+.subtitle {
+  font-size: 11px;
+  margin-top: 3px;
+  letter-spacing: 0.02em;
+  font-weight: 300;
+}
+

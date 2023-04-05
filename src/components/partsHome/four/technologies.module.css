@@ -1,0 +1,59 @@
+.container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.texts > h1 p {
+  letter-spacing: 0.02em;
+  line-height: 31px;
+}
+
+.texts > h1 {
+  font-size: 24px;
+}
+
+.texts > h1 > span {
+  color: rgba(163, 98, 255, 1);
+
+}
+.texts > p {
+  font-size: 17px;
+}
+
+.containertechnologies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(1);
+
+}
+
+.technologies {
+  width: 28em;
+  margin-top: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.technologies > div {
+  margin: 8.5px 6.1px;
+  position: relative;
+}
+.technologies {
+  margin-bottom: -30px;
+}
+
+.mark {
+  z-index: 2;
+  position: absolute;
+  top: 23em;
+  
+}
+
+

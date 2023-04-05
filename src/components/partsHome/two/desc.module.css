@@ -1,0 +1,24 @@
+.container {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+
+  color: #fff
+}
+
+.whoIam > h1{
+  font-size: 50px;
+  letter-spacing: 0.02em;
+}
+.whoIam > p {
+  font-size: 21px;
+  margin-top: 17px;
+}
+
+
+.desc {
+  font-size: 22px;
+  line-height: 39.75px;
+}

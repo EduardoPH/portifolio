@@ -1,0 +1,36 @@
+.header {
+  background-color: #1A0B2E;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  align-items: center;
+  justify-content: center;
+  height: 113px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 1000px;
+  width: 80%;
+}
+
+.partOne {
+  width: 40%;
+}
+
+.partTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 39%;
+}
+
+.partTwo > p {
+  display: flex;
+  color: #fff;
+  align-items: center;
+  cursor: pointer;
+}

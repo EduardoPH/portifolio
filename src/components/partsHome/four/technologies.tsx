@@ -6,8 +6,8 @@ const preahvihear = Preahvihear({ subsets: ['latin'], weight: ['400'] })
 export default function Technologies() {
   return (
     <div className={`${style.container} ${style.texts}`}>
-      <h1 className={preahvihear.className}> I'm currently looking to join a <span> cross-functional </span> team </h1>
-      <p className={preahvihear.className}> that values the improvement of people's lives through accessible and functional projects </p>
+      <h1 className={preahvihear.className}> I&apos;'m currently looking to join a <span> cross-functional </span> team </h1>
+      <p className={preahvihear.className}> that values the improvement of people&apos;'s lives through accessible and functional projects </p>
       <div className={style.containertechnologies}>
         <div className={style.technologies}>
           <ImageCircle
@@ -248,7 +248,7 @@ export default function Technologies() {
             </linearGradient>
           </defs>
         </svg>
-            
+
       </div>
 
     </div>

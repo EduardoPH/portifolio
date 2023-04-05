@@ -45,7 +45,7 @@ export default function WorkCard({image, link, subtitle, title, index}: Props) {
         src={image}
       />
       <div className={style.partTwo}> 
-        <h1 className={`${poppins.className} ${style.title}`}> {title} </h1>
+        <h1 translate="no" className={`${poppins.className} ${style.title}`}> {title} </h1>
         <p className={`${poppins.className} ${style.subtitle}`}> {subtitle} </p>
         <button className={`${poppins.className} ${style.button}`}> 
           LEARN MORE

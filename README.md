@@ -1,4 +1,4 @@
-# CuponsGenerator
+# Portifólio
 
 Este projeto objetiva o desenvolvimento de uma aplicação WEB de um portifólio afim de demonstrar minhas habilidades na programaçao através de projetos desenvolvidos ao longo dessa jornada como dev.
 
